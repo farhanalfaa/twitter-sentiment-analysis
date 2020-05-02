@@ -28,6 +28,34 @@ Donec velit urna, commodo vel tempus vitae, tristique ut erat. Pellentesque aliq
 
 Donec velit urna, commodo vel tempus vitae, tristique ut erat. Pellentesque aliquam tristique justo, id tempor turpis vehicula sed. Phasellus a pretium mauris. Pellentesque nec pretium magna.
 
+#### Install Library
+
+```python
+!pip install twitterscraper
+```
+
+#### Import Library
+
+```python
+import numpy as np
+import pandas as pd
+
+import twitterscraper as ts
+import datetime as dt
+```
+
+#####Setu
+
+```python
+begin_date = dt.date(2020, 1, 1)
+end_date   = dt.date(2020, 4, 24)
+
+limit = 100
+lang  = 'indonesia'
+```
+
+
+
 ### [Part 2] Exploratory Data Analysis
 
 Donec velit urna, commodo vel tempus vitae, tristique ut erat. Pellentesque aliquam tristique justo, id tempor turpis vehicula sed. Phasellus a pretium mauris. Pellentesque nec pretium magna.
